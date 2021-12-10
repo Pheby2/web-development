@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Afro Fem CSS Basicg</title>
 </head>
 <body>
-    <h1>Introduction to CSS</h1>
+    <h1 class="underline">Introduction to CSS</h1>
+    <p>CSS (<span class="bold underline">C</span>ascading <span class="bold underline">S</span>tyle <span class="bold underline">S</span>heets) is the code that styles web content. <em>CSS basics</em> walks through what you need to get started. CSS is the language we use to style an HTML document, it describes how HTML elements should be displayed.</p>
+
+    <h2 class="underline">What is CSS?</h2>
+    <p>Like HTML, CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what is used to selectively style HTML elements. This is <span class="bold">declarative language</span> that controls how webpages look in the browser. The broswer applies CSS style declarations to selected elements to display them properly. A style declaration contains the properties and their values, which determine how a webpage looks.</p>
+
+    <h2>Anatomy of a CSS ruleset</h2>
+    <img 
+    src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png"
+    width="400"
+    />
+    <p>The whole structure is called a ruleset. The individual parts includes:</p>
+
+    <ol>
+     <li><span class="bold">Selector:</span> This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled. To style a different element, change the selector.</li>
+     <li><span class="bold">Declaration:</span> This is a single rule like color: red;. It specifies which element's properties you want to style.</li>
+     <li><span class="bold">Properties:</span> These are ways in which you can style an HTML element. In CSS, you choose which properties you want to affect in the rule.</li>
+     <li>Property value</li>
+    </ol>
+
+    <h2 id="type-of-selectors">Types of selectors</h2>
+    <p>There are many different types of selectors. Here are some of the more common types of selectors:</p>
+    <ul>
+        <li>Element (Tag / Type selector)</li>
+        <li>ID selector</li>
+        <li>Class selector</li>
+        <li>Attribute selector</li>
+        <li>Pseudo-class selector</li>
+    </ul>
+
+    <h2>Summary</h2>
+    <p>Note the important parts of the syntax:</p>
+    <ol>
+        <li>Apart from the selector, each ruleset must be wrapped in curly braces. <span id="frame">({})</span> </li>
+        <li>Within each declaration, you must use a colon <span id="colon">(:)</span> to separate the property from its value or values.</li> 
+        <li>Within each ruleset, you must use a semicolon <span id="semicolon">(;)</span> to separate each declaration from the next one.</li>  
+    </ol>
+
+    <p>This lesson is based on
+        <a
+        target="blank"
+        href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" 
+        >
+        CSS basics</a> 
+        from Mozilla. If you wish to learn more,totally checkout the page.</p>
+
+    
 </body>
 </html>
